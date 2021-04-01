@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch *.js"
   },
   "author": "Kevin Castro <kevin.castro.chavez0@gmail.com> (https://github.com/kevincastrochavez)",
   "license": "ISC",
