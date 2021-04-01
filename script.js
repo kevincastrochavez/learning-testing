@@ -6,3 +6,13 @@ const googleDatabase = [
   "catpictures.com",
   "myfavoritecats.com",
 ];
+
+const googleSearch = (searchInput) => {
+  const matches = googleDatabase.filter((website) => {
+    return website.includes(searchInput);
+  });
+
+  return matches.length > 3 ? matches.slice(1, 3) : matches;
+};
+
+console.log(googleSearch("cat"));
